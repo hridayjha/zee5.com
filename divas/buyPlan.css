@@ -1,0 +1,14 @@
+*{
+    background-color: black;
+    color: white;
+}
+#nav_div{
+    display: flex;
+    align-items: space-between;
+    gap: 40%;
+}
+p{
+    text-align: end;
+    padding-left: 500px;
+}
+

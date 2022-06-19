@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe to ZEE5 - continue with payment</title>
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/5/5a/Zee5-official-logo.jpeg"
+        type="image/JPEG">
+    <link rel="stylesheet" href="nav.css">
+    <style>
+        #parent {
+            width: 29%;
+            /* /height: 450px;/ */
+            /* /border: 1px solid;/ */
+            margin: auto;
+            /* /margin-top: 8%;/ */
+            text-align: center;
+            background-color: rgb(252, 249, 237);
+            padding: 2% 5% 5% 5%;
+            border-radius: 10px;
+            /* margin-top: 0%/font-size: 30px;/ */
+        }
+        
+        #logo {
+            display: grid;
+            grid-template-columns: repeat(4, 70px);
+            margin-left: 13%;
+            margin-bottom: 40px;
+        }
+        
+        #email {
+            padding: 3%16.5%3%16.5%;
+            border-radius: 10px;
+            border: 1px solid rgb(143, 140, 140);
+            margin: 3%;
+            font-size: 18px;
+        }
+        
+        #sub {
+            padding: 3%33%3%33%;
+            border-radius: 10px;
+            border: 1px solid rgb(143, 140, 140);
+            margin: 3%;
+            font-size: 20px;
+            color: white;
+            background-color: rgb(130, 48, 198);
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+        
+        #continue {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+            font-weight: bold;
+            margin-bottom: 3%;
+        }
+        
+        span {
+            color: rgb(112, 112, 228)
+        }
+        
+        body {
+            background-color: rgb(126, 123, 123);
+            background-image: url("https://akamaividz2.zee5.com/image/upload/w_1013,h_405,c_scale,f_webp,q_auto:eco/resources/0-0-1z5133458/cover/1170x658withlogo39e9b67c713e4044a52d5131b6ccd535351614f22f2b4b71b1c6212b4866e89a.jpg");
+            background: linear-gradient(rgba(7, 7, 7, 0.5), rgba(14, 0, 0, 0.5)), url("https://akamaividz2.zee5.com/image/upload/w_1013,h_405,c_scale,f_webp,q_auto:eco/resources/0-0-1z5133458/cover/1170x658withlogo39e9b67c713e4044a52d5131b6ccd535351614f22f2b4b71b1c6212b4866e89a.jpg");
+        }
+        
+        #p {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            /* /border: 1px solid;/ */
+            width: 80%;
+            margin: auto;
+            color: rgb(119, 117, 117)
+        }
+        
+        #info {
+            margin-left: 32%;
+            margin-top: 5%;
+            /* /border: 1px solid;/ */
+            color: white;
+            /* /font-family: Arial, Helvetica, sans-serif;/ */
+        }
+        
+        #info>p {
+            margin-bottom: 0%;
+            /* margin-left: -5%; */
+            font-size: 16px;
+        }
+        
+        h3 {
+            margin-top: 0px;
+            margin-bottom: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="nav">
+        <div id="home">
+            <a href="di.html">
+                <img src="https://www.zee5.com/images/ZEE5_logo.svg?ver=2.50.87">
+            </a>
+        </div>
+        <!-- <div id="right">
+            <div id="login">
+                <a href="zee5_login_page.html">login</a>
+            </div>
+            <div id="sig">
+                <a href="sign_up_page.html">signup</a>
+
+            </div> -->
+
+        </div>
+    </div>
+    <div id="info">
+        <p>Step 2 of 3</p>
+        <h3> Account Info</h3>
+    </div>
+    <div id="parent">
+        <div id="continue">Continue with Email or Mobile</div>
+        <form action=" ">
+            <input type="text" id="email" placeholder="Email ID or Mobile Number ">
+            <input type="submit" id="sub" value="continue">
+        </form>
+        <h3>or</h3>
+        <div id="logo">
+            <div class="facebook">
+                <img src="https://www.zee5.com/images/apple-social-icon-circle.svg?ver=2.50.85 ">
+            </div>
+            <div class="facebook">
+                <img src="https://www.zee5.com/images/fb-social-icon-circle.svg?ver=2.50.85 ">
+            </div>
+            <div>
+                <img src="https://www.zee5.com/images/google-social-icon-circle.svg?ver=2.50.85 ">
+            </div>
+            <div class="facebook">
+                <img src="https://www.zee5.com/images/twitter-social-icon.svg?ver=2.50.85 "></div>
+        </div>
+        <div id="p">
+            <p>By proceeding you agree to our <span>Terms of Services </span>&<span>Privacy Policy.</span></p>
+        </div>
+    </div>
+</body>
+
+</html>
+<script>
+    document.querySelector("form").addEventListener("submit", subfun)
+
+    function subfun(event) {
+        event.preventDefault();
+        window.location.href = "payment.html"
+    }
+</script>
