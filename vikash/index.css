@@ -1,0 +1,438 @@
+body {
+    background-color: black;
+    /* color: whitesmoke; */
+}
+*{
+    font-family: sans-serif;
+    /* background-color: black; */
+    
+}
+/* #navigation_bar_top{
+    width: 98%;
+    height: 60px;
+    margin: auto;
+    background-color: rgb(15,6,23);
+    font-size: 50px;
+    color: whitesmoke;
+    
+} */
+
+#ads_section{
+    text-align: center;
+    background-color: rgb(64,26,76) ;
+}
+#image_slider {
+    width: 84%;
+    height: 410px;
+    /* background-color: rgb(15,6,23); */
+    /* background-color:blanchedalmond; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    color: whitesmoke;
+    font-family: sans-serif;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#Latest_Hindi_Episodes_Free>.box_for_section_title{
+    margin-bottom: -60px;
+}
+
+.left_arrow {
+    /* background-color: aquamarine; */
+    font-size: 40px;
+    font-weight: 700;
+    color: whitesmoke;
+    transform: rotate(45deg);
+}
+
+.right_arrow {
+    /* background-color: aqua; */
+    font-size: 40px;
+    font-weight: 900;
+    color: whitesmoke;
+    transform: rotate(225deg);
+}
+
+.append_image {
+    /* border: 2px solid red; */
+    width: 95%;
+    height: 400px;
+    box-shadow:
+      0 1px 1px hsl(0deg 0% 0% / 0.075),
+      0 2px 2px hsl(0deg 0% 0% / 0.075),
+      0 4px 4px hsl(0deg 0% 0% / 0.075),
+      0 8px 8px hsl(0deg 0% 0% / 0.075),
+      0 16px 16px hsl(0deg 0% 0% / 0.075)
+    ;
+}
+#sliderPhoto{
+    height: 100%;
+    width: 100%;
+}
+#sliderName{
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 12px;
+    
+}
+#watch_buy_button{
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 12px;
+
+}
+#buy_button{
+    margin-left: 15px;
+    background-color: rgb(130,48,198);
+    color: whitesmoke;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-weight: 600;
+    
+
+}
+#buy_button:hover{
+    background-color:rgb(52, 4, 92) ;
+}
+#watch_button{
+    background-color: black;
+    color: whitesmoke;
+    padding: 7px 15px 7px 15px;
+   outline: 0.5px solid whitesmoke;
+    border-radius: 5px;
+    font-weight: 600;
+}
+#watch_button:hover{
+    background-color:whitesmoke ;
+    color: black;
+    outline: whitesmoke;
+    
+}
+#crown_icon{
+    position: absolute;
+    margin-left: 33px;
+    margin-top: 30px;
+}
+span{
+    font-size: 40px;
+    font-weight: 900;
+    color: whitesmoke;
+    transform: rotate(225deg);
+}
+
+
+.box_for_section_title{
+    display: flex;
+    justify-content: space-between;
+    width: 92%;
+    margin: auto;
+    /* background-color: brown; */
+}
+.section_title{
+    color: whitesmoke;
+    font-family: sans-serif;
+    /* border: 2px solid blue; */
+}
+.section_more{
+    color: whitesmoke;
+}
+
+.section_content{
+    width: 92%;
+    height: 310px;
+    /* background-color: burlywood; */
+    margin: auto;
+   display: flex;
+    gap:10px;
+    /* overflow: scroll; */
+
+} 
+/* card hai yeh/ per card */
+.section_card{
+    height: 98%;
+    width:19%;
+    color: rgb(46, 45, 45);
+    position: relative;
+    border-radius: 7px;
+    /* background-color: burlywood; */
+}
+
+.section_card_tv_episodes{
+    height: 98%;
+    width:19%;
+    color: rgb(46, 45, 45);
+    position: relative;
+    border-radius: 7px;
+    /* background-color: burlywood; */
+}
+/*
+/* .section_card_title{
+   
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 12px;
+    
+} */
+.section_card_crown{
+    position: absolute;
+    margin-left: 7px;
+    margin-top: 7px;
+}
+
+.section_card_image .Section_cards_thumbnail{
+    border-radius: 7px;
+    width: 100%;
+    height: 100%; 
+    
+}
+
+.custom-slider .Web_Series_card{
+    position: relative;
+}
+.custom-slider .Web_Series_card>{
+    color:rgb(39, 38, 38);
+    
+}
+.Web_Series_h2{
+    /* border: 5px solid blue;  */
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 0px;
+    background-color: rgb(45, 45, 45);
+    color: rgb(46, 44, 44);
+    font-size: smaller;
+}
+
+/* .Web_Series_watch_button{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 5px;
+    background-color: rgb(164, 159, 159);
+    font-size: smaller;
+} */
+/* .custom-slider .Section_cards .Section_cards_bottom{
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 12px;
+    /* background-color: aquamarine; */
+    /* z-index: 1;
+
+    color: rgb(95, 93, 93); */
+    /* width: 98%;
+    margin: auto;
+    height: 30%;
+     
+} */
+
+/* Manual data slider styles****************** */
+
+.Section_cards{
+    position: relative;
+}
+.Section_cards_crown{
+    position: absolute;
+    margin-left: 7px;
+    margin-top: 7px;
+}
+.secton_cards_title{
+    margin-top: 4px;
+    padding-left: 15px;
+    margin-bottom: -1px;
+    font-size: 12px;
+    color: rgb(63, 60, 60);
+}
+.Section_cards_bottom{
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    color: rgb(68, 68, 68);
+    font-weight: 100;
+    width: 100%;
+    /* border:2px solid blue; */
+    margin-top: -50px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+/* one with the episodes starts here********************************/
+
+.section_card_tv_episodes{
+    height: 98%;
+    width:19%;
+    color: rgb(46, 45, 45);
+    position: relative;
+    border-radius: 7px;
+    /* background-color: burlywood; */
+}
+.Section_cards_bottom_tv_episodes{
+   display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    color: rgb(68, 68, 68);
+    font-size: 10px;
+    font-weight: 100;
+    width: 100%;
+    /* border:2px solid blue; */
+    margin-top: -0px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.Section_cards_tv_episodes:hover>.Section_cards_bottom_tv_episodes{
+    display:grid;
+}
+/*one with the episodes ends here****************************************  */
+
+.section_cards_buttons_div{
+    padding: 5px 5px 5px 5px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 7px;
+    padding-left: 7px;
+    padding-bottom: 7px;
+}
+.section_cards_button_watch{
+    color: rgb(48, 48, 48);
+background-color: whitesmoke;
+border-radius: 5px;
+border: 0.5px solid black;
+outline: none;
+padding-left: 3px;
+margin-left: 6px;
+width: 75px;
+font-size: 10px;
+}
+.section_cards_button_watch:hover{
+    color: whitesmoke;
+    background-color:rgb(162, 129, 249);
+    border:none;
+    font-weight: 500;
+    
+}
+
+.section_cards_button_share{
+    border: none;
+    outline: none;
+    font-size: 11px;
+    color: rgb(59, 58, 58);
+}
+.section_cards_button_share:hover{
+    color:rgb(162, 129, 249) ;
+    font-weight: 700;
+    
+}
+
+.Section_cards:hover>.Section_cards_bottom{
+    display:grid;
+}
+
+
+/* Manual data slider styles ends here ************************* */
+
+/* yaha se */
+.webseries_watch_share{
+    display: none;
+    justify-content: space-between;
+    position: absolute;
+    background-color: whitesmoke;
+    gap: 15px;
+   
+    margin-top: -40px;
+    padding: 12px 12px 12px 12px ;
+   
+    
+}
+.Web_Series_card:hover>.webseries_watch_share{
+    display: flex;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    
+}
+.Web_Series_card:hover{
+    height: 320px;
+    transform: scale(1.1);
+    width: 120%;
+    height: 120%;
+    z-index: 2;
+  
+}
+
+
+.web_series_crown{
+    position: absolute;
+    margin-left: 7px;
+    margin-top: 7px;
+}
+.web_series_image{
+    border-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.Web_Series_watch_button{
+color: rgb(48, 48, 48);
+background-color: whitesmoke;
+border-radius: 5px;
+border: 0.5px solid black;
+outline: none;
+padding-top: 3px;
+width: 87px;
+}
+.Web_Series_watch_button:hover{
+    color: whitesmoke;
+    background-color:rgb(162, 129, 249);
+    border:none;
+    font-weight: 700;
+    
+}
+.Web_Series_share_button{
+    border: none;
+    outline: none;
+}
+.Web_Series_share_button:hover{
+    color:rgb(162, 129, 249) ;
+    font-weight: 700;
+}
+
+/* yaha tak */
+#footer_menu{
+    width: 98%;
+    height: 60px;
+    margin: auto;
+    background-color: blueviolet;
+    font-size: 50px;
+    color: whitesmoke;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+/* <div class="Section_cards">
+                        <div class="Section_cards_image">
+                            <img class="Section_cards_crown" src="https://www.zee5.com/images/premium-ic.svg?ver=2.51.65" alt="" >
+                            <img src=""
+                                alt="" class="Section_cards_thumbnail">
+                        </div>
+                        <div class="Section_cards_bottom">
+                            <div class="section_cards_title_div">
+
+                                <p class="secton_cards_title"></p>
+                            </div>
+                            <div class="section_cards_buttons_div">
+                                <button class="section_cards_button_watch">▶ WATCH</button>
+                                <button class="section_cards_button_share">☍ SHARE</button>
+                            </div>
+
+                        </div>
+                    </div>
+                    rgb(64,26,76)
+                    
+                    */
