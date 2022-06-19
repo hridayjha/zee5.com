@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Otp</title>
+    <style>
+body {
+            color: black;
+            background-color: rgb(126, 123, 123);
+            background-image: url("https://akamaividz2.zee5.com/image/upload/w_1188,h_475,c_scale,f_webp,q_auto:eco,dpr_2.0/resources/0-0-1z562203/cover/1170x658withlogo366e887b55c34a6da1a869037694ace4.jpg");
+            background: linear-gradient(rgba(58, 57, 57, 0.5), rgba(77, 75, 75, 0.5)), url("https://akamaividz2.zee5.com/image/upload/w_1188,h_475,c_scale,f_webp,q_auto:eco,dpr_2.0/resources/0-0-1z562203/cover/1170x658withlogo366e887b55c34a6da1a869037694ace4.jpg");
+        }
+
+
+#content{
+    display: block;
+    width: 70%;
+    height: 800px;
+    text-align: center;
+    justify-content: center;
+}
+#inside_content{
+    margin: auto;
+    margin-left: 50%;
+    padding-top: 10%;
+    width: 40%;
+    align-items: center;
+}
+h3,p{
+    text-align: center;
+}
+#input_signin{
+    width: 100%;
+    height: 50px;
+    border: 1px solid teal;
+}
+.button{
+    color: #360c0c80;
+    width: 100%;
+    height: 50px;
+    border: #ffffff80;
+    border: 1px solid teal;
+}
+.a{
+   color: #a785ff; 
+}
+#otpinput{
+    color: #ffffff80;
+    width: 100%;
+    height: 50px;
+    border: #ffffff80;
+    border-bottom: 1px dashed teal;
+}
+#box{
+    display: flex;
+    width: 75%;
+    margin-left: 25%;
+    column-gap: 10px;
+    align-items: center;
+}
+#box>.box{
+    width: 10%;
+    height: 40px;
+    border: none;
+    border-bottom: solid 1px #a785ff;
+    text-align: center;
+    
+}
+
+    </style>
+</head>
+<body>
+    <div id="content">
+        <div id="inside_content">
+        <h2>Verify Mobile Number</h2>
+        <p>An OTP has been sent to the entered mobile number<a class="a" href="">Change Number</a></p>
+        <!-- <input type="password" style="text-align:center ;" maxlength="4" id="otpinput"> -->
+        <div id="box">
+            <input type="text" maxlength="1" class="box" id="a" required>
+            <input type="text" maxlength="1" class="box" id="b" required>
+            <input type="text" maxlength="1" class="box" id="c" required>
+            <input type="text" maxlength="1" class="box" id="d" required>
+        </div>
+        <p>Did not get the OTP? <a class="a" href="">Resend</a>
+        </p>
+        <input type="submit" value="Verify" id="verify" class="button">
+        <p>or</p>
+        <input type="submit" value="Enter Password" class="button">
+    </div>
+    </div>
+</body>
+</html>
+<script>
+const verify = document.querySelector('#verify');
+verify.addEventListener("click",otpFun);
+function otpFun(){
+    window.location="https://cdn.dribbble.com/users/2960440/screenshots/8599913/media/dbd45827a0d850ac8738f0c3123f23e2.gif";
+}
+</script>

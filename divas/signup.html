@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="content">
+        <div id="inside_content">
+            <h3>Resister to Zee5</h3>
+            <p>Create an account to continue enjoying uninterrupted video and personalised experience</p>
+            <div id="logo">
+              <a href=""><img src="https://www.zee5.com/images/google-social-icon-circle.svg?ver=2.51.66" alt=""></a>
+            </div>
+            <p style="border-radius: 10px; color: teal; display: block;">or</p>
+            <input type="text" id="input_signin" placeholder="Email ID or Mobile Number">
+            <p>By proceeding you agree to our <br><a class="a" href="">Term of Service</a>&<a class="a" href="">Privacy Policy</a>.</p>
+            <input type="submit" value="Send OTP" class="button" id="but">
+            <p>Already registered?<a class="a" href="signin.html">Login</a> </p>
+        </div>
+       
+    </div>
+</body>
+</html>
+<script>
+    const button = document.querySelector('#but');
+    button.addEventListener("click",signupFun);
+    function signupFun(){
+        event.preventDefault();
+        const val = Math.floor(1000 + Math.random() * 9000);
+        alert ("Your One time Pin is"+"\n"+val);
+        window.location="otpPage.html";
+    }
+</script>

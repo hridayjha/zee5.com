@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="nav.css">
+    <style>
+        #parent {
+            width: 45%;
+            /* /border: 1px solid;/ */
+            margin: auto;
+            margin-top: 2%;
+            background-color: rgb(212, 212, 212)e;
+        }
+        
+        #box {
+            display: flex;
+            justify-content: space-between;
+            /* /border: 1px solid;/ */
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            background-color: rgb(249, 250, 239);
+            border-radius: 10px;
+            padding: 2%
+        }
+        
+        .tag {
+            margin-left: 3%;
+            margin-right: 3%;
+        }
+        
+        #prem {
+            display: flex;
+            justify-content: space-between;
+            border: 1px solid;
+        }
+        
+        #rupee {
+            margin-top: 5.5%;
+            font-size: 20px;
+        }
+        
+        #UPI {
+            display: grid;
+            grid-gap: 25%;
+            color: black;
+        }
+        
+        #by {
+            margin-top: 50%;
+        }
+        
+        span {
+            font-weight: bold;
+            color: rgb(248, 167, 17);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        #card_number {
+            padding: 2.5% 12% 2.5% 12%;
+            margin-bottom: 3%;
+            /* /border-radius: 10px;/ */
+            border-left: 0px;
+            border-right: 0px;
+            border-top: 0px;
+            border-bottom: 1px solid rgb(107, 5, 202);
+            /* /border: 1px solid rgb(114, 112, 112)/ */
+        }
+        
+        #num>p {
+            margin-bottom: 0%;
+            color: rgb(156, 154, 154);
+        }
+        
+        #mm {
+            padding: 2.5% 2% 2.5% 0%;
+            margin-top: 0%;
+            margin-bottom: 3%;
+            border-left: 0px;
+            border-right: 0px;
+            border-top: 0px;
+            border-bottom: 1px solid rgb(131, 128, 134);
+        }
+        
+        #ex>p {
+            margin-bottom: 0%;
+            color: rgb(156, 154, 154);
+        }
+        
+        #cv>p {
+            margin-bottom: 0%;
+            color: rgb(156, 154, 154);
+        }
+        
+        #cvv {
+            padding: 3% 0% 3% 0%;
+            margin-top: 0%;
+            margin-bottom: 5%;
+            /* /border: 1px solid rgb(114, 112, 112);/ */
+            border-left: 0px;
+            border-right: 0px;
+            border-top: 0px;
+            /* border-bottom: 1px solid rgb(127, 125, 128); */
+        }
+        
+        #sub {
+            padding: 4% 12% 4% 12%;
+            margin-top: 5%;
+            border-radius: 10px;
+            margin-bottom: 5%;
+            border: 0;
+            background-color: blueviolet;
+            color: white;
+            font-size: 20px;
+        }
+        
+        #check {
+            width: 20px;
+            height: 20px;
+        }
+        
+        #combain {
+            display: flex;
+            /* /border: 1px solid;/ */
+            justify-content: space-between;
+            width: 105%
+        }
+        
+        #box2 {
+            margin-right: 3%;
+            /* /border: 1px solid/ */
+        }
+        
+        #box11>h4 {
+            color: rgb(124, 4, 184);
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        form>div>h4 {
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        h3 {
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        #prem>div>p {
+            color: red;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        #prem {
+            margin-bottom: 3%;
+            background-color: rgb(249, 250, 239);
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            border-radius: 10px;
+            border: 0px;
+            padding: 2%
+        }
+        
+        #gift {
+            margin-top: 3%
+        }
+        
+        body {
+            background-color: rgb(126, 123, 123);
+            background-image: url("https://dollarsprout.com/wp-content/uploads/2019/04/shutterstock_567634105.jpg");
+            background: linear-gradient(rgba(7, 7, 7, 0.5), rgba(14, 0, 0, 0.5)), url("https://dollarsprout.com/wp-content/uploads/2019/04/shutterstock_567634105.jpg");
+        }
+        
+        #step {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        #UPI>a {
+            color: rgb(78, 77, 77)
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div id="home">
+            <a href="di.html">
+                <img src="https://www.zee5.com/images/ZEE5_logo.svg?ver=2.50.87">
+            </a>
+        </div>
+        <div id=right>
+            <div id="login">
+                <a href="zee5_login_page.html">login</a>
+            </div>
+            <div id="sig">
+                <a href="sign_up_page.html">signup</a>
+
+            </div>
+
+        </div>
+    </div>
+    <div id="parent">
+        <div class="tag" id="step">
+            <p>step 2 of 3</p>
+            <h3>Make Payment</h3>
+        </div>
+        <div class="tag" id="prem">
+            <div>
+                <h3>Premium</h3>
+                <p>50% off on 999</p>
+            </div>
+            <div id="rupee">&#x20B9 499</div>
+        </div>
+        <div class="tag" id="box">
+            <div id="box1">
+                <div id="box11">
+                    <h4>Credit / Debit Card</h4>
+                    <p>10% Instant discount on Credit cards</p>
+                </div>
+                <div id="UPI"><a href="">UPI</a><a href="">Netbanking</a><a href="">Wallets</a></div>
+                <div id="by">
+                    <p>power by <span>JUSPAY</span></p>
+                </div>
+            </div>
+            <div id="box2">
+                <form>
+                    <div>
+                        <h4>Enter Credit / Debit Card Details</h4>
+                    </div>
+                    <div id=num>
+                        <p>Card Number</p><input type="text" id="card_number" style="text-align:center ;" placeholder="Enter card number here"></div>
+                    <div id="combain">
+                        <div id="ex">
+                            <p>Expiry</p>
+                            <input type="text" id="mm" placeholder="MM/YY">
+                        </div>
+                        <div id="cv">
+                            <p>CVV</p>
+                            <input type="number" id="cvv" placeholder="CVV">
+                        </div>
+                    </div>
+                    <div><input type="checkbox" id="check"> Save this card for faster payments</div>
+                    <div><input type="submit" id="sub" value="Proceed to Pay"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script>
+    document.querySelector("form").addEventListener("submit", subfun)
+
+    function subfun() {
+        event.preventDefault();
+        event.preventDefault();
+        const val = Math.floor(1000 + Math.random() * 9000);
+        alert ("Your One time Pin is"+"\n"+val);
+        window.location ="payment_otp.html";
+    }
+</script>
